@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Bronze",
+    "price": 9.99,
+    "features": ["Access to all basic features", "Limited access to advanced features", "Customer support"]
+  },
+  {
+    "name": "Silver",
+    "price": 19.99,
+    "features": ["Access to all basic and advanced features", "Priority customer support"]
+  },
+  {
+    "name": "Gold",
+    "price": 49.99,
+    "features": ["Access to all basic and advanced features", "Unlimited access to advanced features", "Dedicated customer support", "Discounts on products and services"]
+  }
+]

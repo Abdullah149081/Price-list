@@ -49,7 +49,7 @@ const Header = () => {
           </span>
         </div>
         <ul
-          className={`md:flex gap-11 bg-slate-900  rounded-bl-lg duration-500 md:duration-0 p-10 md:p-6  font-bold text-xl absolute md:static md:right-0 md:top-0  ${
+          className={`md:flex gap-11 bg-slate-900  rounded-bl-lg duration-500 md:duration-0 p-10 md:p-6  font-bold text-xl z-10 absolute md:static md:right-0 md:top-0  ${
             isOpen ? "-right-44" : "-right-2 top-[75px]"
           }`}
         >
