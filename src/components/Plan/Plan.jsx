@@ -3,6 +3,7 @@ import React from "react";
 
 const Plan = (props) => {
   const { name, price, features } = props.plan;
+  const notify = props.notify;
 
   return (
     <>
@@ -24,7 +25,9 @@ const Plan = (props) => {
           </div>
 
           <div className="card-actions absolute bottom-2 mt-9">
-            <button className="btn btn-primary md:w-96 font-bold text-xl">Purchase Now</button>
+            <button onClick={() => notify(name)} className="btn btn-primary md:w-96 font-bold text-xl">
+              Purchase Now
+            </button>
           </div>
         </div>
       </div>
